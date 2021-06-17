@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menubar {
+            background : olive;
+        }
+        #menubar ul {
+            margin : 20px 0 0 100px;
+            padding : 0;
+            width : 567px;
+            text-align:center;
+        }
+        #menubar ul li {
+            display : inline-block;
+            list-style-type : none;
+            padding : 0px 15px;
+        }
+        #menubar ul li a{
+            color : white;
+            text-decoration: none;
+        }
+        #menubar ul li a:hover{
+            color : violet;
+        }
+        input[type=text] {
+            color: red;
+        }
+        input:hover, textarea:hover {
+            background: aliceblue;
+        }
+        label {
+            display : block;
+            padding : 10px;
+        }
+        lable span {
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav id="menubar">
+        <ul>
+            <li><a href="0602.3.html">Home</a></li>
+            <li><a href="espresso.html">Espresso</a></li>
+            <li><a href="cappuccino.html">Cappuccino</a></li>
+            <li><a href="cafe latte.html">cafe latte</a></li>
+            <li><a href="f.A.Q.html">F.A.Q</a></li>
+        </ul>
+    </nav>
+    <div>에스프레소는 쓰다.</div>
+    <form>
+        <label>
+            <span>Name</span><input type="text" placeholder="Elvis"><br>
+        </label>
+        <lable><span>Email</span><input type="email" placeholder="elvis@graceland.com">
+        </lable>
+        <lable><span>Comment</span><textarea placeholder="메세지를 남겨주세요"></textarea></lable>
+        <lable>
+            <span></span><input type="submit" value="subit">
+        </lable>
+    </form>
+</body>
+</html>
